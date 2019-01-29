@@ -70199,6 +70199,10 @@ function (_Component) {
       _this.props.history.push(path);
     });
 
+    _babel_runtime_helpers_defineProperty__WEBPACK_IMPORTED_MODULE_7___default()(_babel_runtime_helpers_assertThisInitialized__WEBPACK_IMPORTED_MODULE_6___default()(_babel_runtime_helpers_assertThisInitialized__WEBPACK_IMPORTED_MODULE_6___default()(_this)), "initURL", function () {
+      _this.props.history.push('/components1');
+    });
+
     return _this;
   }
 
@@ -70269,8 +70273,8 @@ function (_Component) {
           width: 210
         }), _ref)
       }))), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_10__["Switch"], null, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_10__["Route"], {
-        path: "*",
-        component: _Page_page5_MapView__WEBPACK_IMPORTED_MODULE_19__["default"],
+        path: "/",
+        component: this.initURL,
         exact: true
       }), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_10__["Route"], {
         path: "/about",
