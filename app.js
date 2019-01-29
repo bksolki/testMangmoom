@@ -70269,7 +70269,7 @@ function (_Component) {
           width: 210
         }), _ref)
       }))), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_10__["Switch"], null, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_10__["Route"], {
-        path: "/",
+        path: "*",
         component: _Page_page5_MapView__WEBPACK_IMPORTED_MODULE_19__["default"],
         exact: true
       }), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_10__["Route"], {
