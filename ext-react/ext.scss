@@ -755,6 +755,26 @@ $include-ext-util-translatable-csstransform: dynamic(true);;
 $include-ext-util-translatable-dom: dynamic(true);;
 $include-ext-util-translatable-scrollparent: dynamic(true);;
 $include-ext-util-translatable-scrollposition: dynamic(true);;
+$include-ext-ux-gauge: dynamic(true);;
+$include-ext-ux-ajax-datasimlet: dynamic(true);;
+$include-ext-ux-ajax-jsonsimlet: dynamic(true);;
+$include-ext-ux-ajax-pivotsimlet: dynamic(true);;
+$include-ext-ux-ajax-simmanager: dynamic(true);;
+$include-ext-ux-ajax-simxhr: dynamic(true);;
+$include-ext-ux-ajax-simlet: dynamic(true);;
+$include-ext-ux-ajax-xmlsimlet: dynamic(true);;
+$include-ext-ux-event-driver: dynamic(true);;
+$include-ext-ux-event-maker: dynamic(true);;
+$include-ext-ux-event-player: dynamic(true);;
+$include-ext-ux-event-recorder: dynamic(true);;
+$include-ext-ux-gauge-gauge: dynamic(true);;
+$include-ext-ux-gauge-needle-abstract: dynamic(true);;
+$include-ext-ux-gauge-needle-arrow: dynamic(true);;
+$include-ext-ux-gauge-needle-diamond: dynamic(true);;
+$include-ext-ux-gauge-needle-rectangle: dynamic(true);;
+$include-ext-ux-gauge-needle-spike: dynamic(true);;
+$include-ext-ux-gauge-needle-wedge: dynamic(true);;
+$include-ext-ux-rating-picker: dynamic(true);;
 $include-ext-viewport-android: dynamic(true);;
 $include-ext-viewport-default: dynamic(true);;
 $include-ext-viewport-ios: dynamic(true);;
@@ -1008,6 +1028,23 @@ $relative-image-path-for-uis: $theme-material-resource-path;
 @import '../../node_modules/@sencha/ext-modern-theme-material/sass/var/tab/Bar';
 @import '../../node_modules/@sencha/ext-modern-theme-material/sass/var/grid/cell/Tree';
 
+/* including package ux */
+$ux-resource-root: 'ux' !default;
+$ux-resource-path: 'ux/images' !default;
+$current-package: 'ux';
+$current-resource-root: $ux-resource-root;
+$relative-image-path-for-uis: $ux-resource-path;
+@import '../../node_modules/@sencha/ext-ux/sass/var/gauge/Gauge';
+@import '../../node_modules/@sencha/ext-ux/sass/var/rating/Picker';
+
+/* including package ux */
+$ux-resource-root: 'ux' !default;
+$ux-resource-path: 'ux/images' !default;
+$current-package: 'ux';
+$current-resource-root: $ux-resource-root;
+$relative-image-path-for-uis: $ux-resource-path;
+@import '../../node_modules/@sencha/ext-ux/modern/sass/var/gauge/Gauge';
+
 
 /* ======================== RULE ======================== */
 
@@ -1253,3 +1290,12 @@ $relative-image-path-for-uis: $theme-material-resource-path;
 @import '../../node_modules/@sencha/ext-modern-theme-material/sass/src/slider/Slider';
 @import '../../node_modules/@sencha/ext-modern-theme-material/sass/src/slider/Toggle';
 @import '../../node_modules/@sencha/ext-modern-theme-material/sass/src/tab/Bar';
+
+/* including package ux */
+$ux-resource-root: 'ux' !default;
+$ux-resource-path: 'ux/images' !default;
+$current-package: 'ux';
+$current-resource-root: $ux-resource-root;
+$relative-image-path-for-uis: $ux-resource-path;
+@import '../../node_modules/@sencha/ext-ux/sass/src/gauge/Gauge';
+@import '../../node_modules/@sencha/ext-ux/sass/src/rating/Picker';

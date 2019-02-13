@@ -1,2 +1,2 @@
 // @tag App
-// @require E:\FreeLance\MangMoom\ReactMangMoom\build\ext-react\app.js
+// @require C:\MainData\freelance\Mangmoom\reactMangmoom\build\ext-react\app.js

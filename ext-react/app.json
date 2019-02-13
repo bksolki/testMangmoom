@@ -9,15 +9,16 @@
         "modern",
         "treegrid",
         "renderercell",
-        "transition"
+        "transition",
+        "ux"
     ],
     "overrides": [
         "jsdom-environment.js"
     ],
     "packages": {
         "dir": [
-            "E:\\FreeLance\\MangMoom\\ReactMangMoom\\node_modules\\@sencha",
-            "E:\\FreeLance\\MangMoom\\ReactMangMoom\\ext-react\\packages"
+            "C:\\MainData\\freelance\\Mangmoom\\reactMangmoom\\node_modules\\@sencha",
+            "C:\\MainData\\freelance\\Mangmoom\\reactMangmoom\\ext-react\\packages"
         ]
     },
     "output": {
